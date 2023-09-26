@@ -1,0 +1,26 @@
+{
+  "name": "create-www-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "create-www": "index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "envinfo": "^7.10.0",
+    "fs-extra": "^11.1.1",
+    "minimist": "^1.2.8",
+    "semver": "^7.5.4"
+  }
+}
